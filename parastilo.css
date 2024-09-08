@@ -1,0 +1,56 @@
+.cuadro{
+    border: solid black;
+    height: 550px;
+    width:500px;
+    background-color: rgba(212, 206, 206, 0.692);
+
+
+}
+
+
+
+input {
+    background-color: #212121;
+    
+    height: 40px;
+    width:414px ;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    color: whitesmoke;
+    position: relative;left: 10px; top: -65px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input:focus {
+    color: #e5e109;
+    background-color: #212121;
+    outline-color:#e5e109d3;
+    box-shadow: -3px -3px 15px#e5e109d3;;
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+
+  .input2 {
+    background-color: #ffe602;
+    
+    height: 40px;
+    width:414px ;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    color: whitesmoke;
+    position: relative;left: 10px; top: -65px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input2:focus {
+    color: #000000;
+    background-color: #ffe602;
+    outline-color:#000000d3;
+    box-shadow: -3px -3px 15px#000000d3;;
+    transition: .1s;
+    transition-property: box-shadow;
+  }
