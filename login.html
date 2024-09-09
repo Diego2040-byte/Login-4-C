@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="parastilo.css">
+    <script src="paraObtenerDatos.js"></script>
 </head>
-<body>
+<body style="position: relative; left: 500px; top: 70px;">
     <div class="cuadro">
        
             <center> <h1>LOGIN</h1> </center>
@@ -14,17 +15,17 @@
     
         <BR>
         </BR>
-       <h3 style="position: relative; left: 13px; top: -50px; ">USUARIO</h3>
+       <h3 style="position: relative; left: 13px; top: -50px; " >USUARIO</h3>
        <br>
-       <input type="email" placeholder="USUARIO" class="input">
-       <h3 style="position: relative; left: 13px; top: -50px; ">CONTRASEÑA</h3>
+       <input type="email" placeholder="USUARIO" class="input" id="Usuario">
+       <h3 style="position: relative; left: 13px; top: -50px; " >CONTRASEÑA</h3>
        <br>
-       <input type="password" placeholder="Contraseña" class="input2">
+       <input type="password" placeholder="CONTRASEÑA" class="input2" id="contra">
     
 
-       <button class="button" style="position: relative; left: 150px; top: -10px;"> LOGIN </button>
+       <button class="button" style="position: relative; left: 150px; top: -10px;" onclick="datos()"> LOGIN </button>
 
-       <label style="position: relative; left: 20px;" class="container">
+       <label style="position: relative; left: 100px; top: 30px;" class="container">
         <input checked="checked" type="checkbox">
         <div class="checkmark"></div>
 
